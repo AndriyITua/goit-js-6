@@ -2,7 +2,7 @@ let counterValue = 0;
 const refs = {
     btnDecrement: document.querySelector('button[data-action="decrement"]'),
     btnIncrement: document.querySelector('button[data-action="increment"]'),
-    value: ducument.querySelector('#value'),
+    value: document.querySelector('#value'),
 };
 console.log(refs.btnDecrement);
 console.log(refs.btnIncrement);
