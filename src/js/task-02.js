@@ -9,7 +9,6 @@ const ingredients = [
 
 const ingredientsEL = document.createElement('ul.ingredients');
 
-
 const elementLi = document.createElement('li');
 elementLi.textContent = 'Potatoes';
 elementLi.classList.add('item');
@@ -36,6 +35,7 @@ elementLiSix.classList.add('item');
 
 ingredientsEL.append(elementLi, elementLiTwo, elementLiThree, elementLiFour, elementLiFive, elementLiSix);
 console.log(ingredientsEL);
+console.log(document.body.append(ingredientsEL));
 
 // console.log(document.body.appendChild(elementLi));
 // console.log(document.body.appendChild(elementLiTwo));
